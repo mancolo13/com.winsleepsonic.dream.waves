@@ -32,27 +32,26 @@ class _MainScreenState extends State<MainScreen> {
         backgroundColor: AppTheme.surfaceColor,
         indicatorColor: AppTheme.primaryColor.withValues(alpha: 0.2),
         destinations: [
-        NavigationDestination(
-          icon: const Icon(Icons.headphones_outlined),
-          selectedIcon: const Icon(Icons.headphones, color: AppTheme.primaryColor),
-          label: 'Soundscapes',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.graphic_eq_outlined),
-          selectedIcon: const Icon(Icons.graphic_eq, color: AppTheme.primaryColor),
-          label: 'Binaural',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.alarm_outlined),
-          selectedIcon: const Icon(Icons.alarm, color: AppTheme.primaryColor),
-          label: 'Alarm',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.nights_stay_outlined),
-          selectedIcon: const Icon(Icons.nights_stay, color: AppTheme.primaryColor),
-          label: 'Diary',
-        ),
-
+          NavigationDestination(
+            icon: const Icon(Icons.music_note_outlined),
+            selectedIcon: const Icon(Icons.music_note, color: AppTheme.primaryColor),
+            label: 'Mixer',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.bedtime_outlined),
+            selectedIcon: const Icon(Icons.bedtime, color: AppTheme.primaryColor),
+            label: 'Timer',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.graphic_eq_outlined),
+            selectedIcon: const Icon(Icons.graphic_eq, color: AppTheme.primaryColor),
+            label: 'Waves',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.nights_stay_outlined),
+            selectedIcon: const Icon(Icons.nights_stay, color: AppTheme.primaryColor),
+            label: 'Sleep Log',
+          ),
         ],
       ),
     );
